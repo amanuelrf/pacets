@@ -370,10 +370,6 @@ p:last-child {
   color: var(--mcolor);
 }
 
-.sub-menu li.price a {
-  font-weight: 600;
-}
-
 @media (max-width: 900px) {
   .header-phone-block {
     text-align: left;
