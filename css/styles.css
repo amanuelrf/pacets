@@ -178,6 +178,16 @@ p:last-child {
   color: var(--text-muted);
 }
 
+/* Homepage: primary page title lives in first section (no dark hero) */
+.section__intro h1 {
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
 /* --------------------------------------------------------------------------
    TOP BAR (phone line — matches “Feel free to call us anytime”)
    -------------------------------------------------------------------------- */
