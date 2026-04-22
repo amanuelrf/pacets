@@ -918,6 +918,38 @@ p:last-child {
   resize: vertical;
 }
 
+.form-group--sms-consent__disclosure {
+  font-size: var(--fs-small);
+  line-height: 1.45;
+  color: var(--text-muted);
+  margin: 0 0 0.65rem;
+}
+
+.form-group--sms-consent__disclosure a {
+  color: var(--mcolor);
+  font-weight: 600;
+}
+
+.form-group--sms-consent__yes-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-group--sms-consent__yes-row input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.form-group--sms-consent__yes-row label {
+  font-size: var(--fs-small);
+  font-weight: 600;
+  margin-bottom: 0;
+  color: var(--text);
+  cursor: pointer;
+}
+
 .form-note {
   font-size: var(--fs-small);
   color: var(--text-muted);
@@ -965,11 +997,12 @@ p:last-child {
 }
 
 .footer-bottom {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  margin-top: 0.75rem;
+  padding-top: 0;
+  border-top: none;
   font-size: var(--fs-small);
   text-align: center;
+  line-height: 1.5;
   opacity: 0.85;
 }
 
@@ -977,17 +1010,41 @@ p:last-child {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem 1.5rem;
-  margin-bottom: 1rem;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   font-size: var(--fs-small);
 }
 
 .footer-legal a {
   color: #c9cacd;
+  text-decoration: none;
+  opacity: 0.92;
+}
+
+.footer-legal a:hover {
+  color: #fff;
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 .prose {
   max-width: 68ch;
+}
+
+/* h1 defaults to #fff for dark homepage hero; prose titles need body text color */
+.prose h1 {
+  color: var(--text);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .prose h2 {
