@@ -233,8 +233,15 @@ p:last-child {
   padding: 1rem 0 1.25rem;
 }
 
+.header-logo {
+  display: inline-flex;
+  align-items: center;
+  margin-right: auto;
+}
+
 .header-logo img {
-  width: 110px;
+  width: 380px;
+  max-width: min(380px, 92vw);
   height: auto;
 }
 

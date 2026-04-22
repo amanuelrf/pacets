@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 118" width="1360" height="118" role="img" aria-labelledby="pacetsLogoTitle">
+  <title id="pacetsLogoTitle">Pace Transportation Services, LLC</title>
+  <defs>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&amp;display=swap");
+      .logo-wordmark {
+        font-family: "Montserrat", "Segoe UI", system-ui, -apple-system, sans-serif;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 52px;
+        text-rendering: geometricPrecision;
+        letter-spacing: 0.06em;
+        fill: #111;
+      }
+    </style>
+  </defs>
+  <text class="logo-wordmark" x="40" y="59" text-anchor="start" dominant-baseline="middle">Pace Transportation Services, LLC</text>
+</svg>
