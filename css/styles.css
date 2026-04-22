@@ -323,7 +323,7 @@ p:last-child {
 
 @media (min-width: 901px) {
   .main-menu {
-    margin-left: -12.5rem;
+    margin-left: -6rem;
   }
 }
 
@@ -558,38 +558,6 @@ p:last-child {
   align-items: center;
   gap: 1.5rem;
   padding: 2rem 0;
-}
-
-.hero--compact .hero__visual {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .hero--compact .hero__visual {
-    display: flex;
-  }
-}
-
-.hero__visual {
-  flex: 0 1 200px;
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.25rem;
-  text-align: center;
-}
-
-.hero__visual-icon {
-  width: 56px;
-  height: 56px;
-  margin: 0 auto 0.75rem;
-  background: var(--text);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 1.5rem;
 }
 
 /* Buttons (general) */
