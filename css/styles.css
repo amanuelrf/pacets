@@ -312,10 +312,17 @@ p:last-child {
 .main-menu {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: stretch;
   min-height: 60px;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 901px) {
+  .main-menu {
+    margin-left: -12.5rem;
+  }
 }
 
 .main-menu > li {
@@ -384,6 +391,8 @@ p:last-child {
 
   .main-menu {
     flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0;
     min-height: 0;
   }
 
