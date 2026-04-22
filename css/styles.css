@@ -5,7 +5,7 @@
   Theme notes:
   - White header with light gray borders (#ECECEC)
   - Near-black text (#0F1011), muted gray (#919295, #606060)
-  - Brand red for buttons and hover underlines (#C93030)
+  - Brand light blue for buttons, accents, and hover underlines
   - Dark hero with gradients (full-width slider layout)
 
   Change variables in :root to tweak the look in one place.
@@ -55,7 +55,9 @@ textarea {
    DESIGN TOKENS (colors and spacing for pacets.com)
    -------------------------------------------------------------------------- */
 :root {
-  --mcolor: #c93030;
+  --mcolor: #5ba8d9;
+  --mcolor-hover: #4294c9;
+  --mcolor-strong: #3580b2;
   --text: #0f1011;
   --text-muted: #606060;
   --text-soft: #919295;
@@ -277,7 +279,7 @@ p:last-child {
   margin-top: 0.15rem;
 }
 
-/* Primary red CTA — matches .header-btn a */
+/* Primary CTA — matches .header-btn a */
 .btn--cta {
   display: inline-flex;
   align-items: center;
@@ -293,8 +295,8 @@ p:last-child {
 }
 
 .btn--cta:hover {
-  background: #000;
-  border-color: #000;
+  background: var(--mcolor-hover);
+  border-color: var(--mcolor-strong);
   color: #fff;
 }
 
@@ -612,8 +614,8 @@ p:last-child {
 }
 
 .btn--primary:hover {
-  background: #000;
-  border-color: #000;
+  background: var(--mcolor-hover);
+  border-color: var(--mcolor-strong);
   color: #fff;
 }
 
