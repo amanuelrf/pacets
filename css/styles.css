@@ -706,34 +706,6 @@ p:last-child {
   font-size: var(--fs-small);
 }
 
-.link-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.link-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.5rem 1rem;
-  padding: 1rem 1.25rem;
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-}
-
-.link-row a {
-  color: var(--mcolor);
-  font-weight: 600;
-}
-
-.link-row span {
-  font-size: var(--fs-small);
-  color: var(--text-muted);
-}
-
 .stats {
   display: flex;
   flex-wrap: wrap;
@@ -759,107 +731,6 @@ p:last-child {
   font-size: var(--fs-small);
   color: var(--text-muted);
   margin-top: 0.35rem;
-}
-
-.team-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.team-card {
-  flex: 1 1 200px;
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.25rem;
-  text-align: center;
-}
-
-.team-card__avatar {
-  width: 72px;
-  height: 72px;
-  margin: 0 auto 0.75rem;
-  border-radius: 50%;
-  background: var(--bg-alt);
-  border: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  color: var(--text);
-  font-size: 1.25rem;
-}
-
-.team-card__role {
-  font-size: var(--fs-small);
-  color: var(--text-muted);
-}
-
-.blog-list h3 {
-  font-size: 1.05rem;
-  font-weight: 600;
-  margin-bottom: 0.35rem;
-}
-
-.blog-list h3 a {
-  color: var(--text);
-}
-
-.blog-list h3 a:hover {
-  color: var(--mcolor);
-}
-
-.blog-list article {
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--border);
-}
-
-.blog-list article:last-child {
-  border-bottom: 0;
-}
-
-.blog-list a {
-  color: var(--text);
-  font-weight: 600;
-}
-
-.blog-list .meta {
-  font-size: var(--fs-small);
-  color: var(--text-muted);
-  margin-top: 0.35rem;
-}
-
-/* Connect With Us — social strip */
-.connect-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.connect-card {
-  flex: 1 1 200px;
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1rem 1.15rem;
-}
-
-.connect-card strong {
-  display: block;
-  color: var(--text);
-  margin-bottom: 0.25rem;
-}
-
-.connect-card span {
-  font-size: var(--fs-small);
-  color: var(--text-muted);
-}
-
-.connect-card a {
-  color: var(--mcolor);
-  font-weight: 600;
-  font-size: var(--fs-small);
 }
 
 .contact-section {
@@ -955,12 +826,6 @@ p:last-child {
   margin-bottom: 0;
   color: var(--text);
   cursor: pointer;
-}
-
-.form-note {
-  font-size: var(--fs-small);
-  color: var(--text-muted);
-  margin-top: 0.75rem;
 }
 
 /* Footer — dark bar like site footer */
